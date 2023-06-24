@@ -1,0 +1,127 @@
+/* theme dark */
+
+body[theme="dark"] {
+    background-color: var(--dark-main-bg-color);
+    color: var(--dark-main-color);
+}
+
+body[theme="dark"] .header {
+    background-color: var(--dark-alt-bg-color);
+}
+
+body[theme="dark"] .nav-item:hover {
+    background-color: var(--dark-main-color);
+    color: var(--dark-alt-bg-color);
+}
+
+body[theme="dark"] .main .article {
+    background-color: var(--dark-post-entry-bg-color);
+    color: var(--dark-article-color);
+}
+
+body[theme="dark"] .main .post-entry {
+    background-color: var(--dark-post-entry-bg-color);
+    color: var(--dark-post-entry-color);
+}
+body[theme="dark"] .main .post-entry:hover {
+    background-color: var(--dark-post-entry-hover-bg-color);
+}
+
+body[theme="dark"] .footer {
+    background-color: var(--dark-alt-bg-color);
+}
+
+body[theme="dark"] .button {
+    color: var(--dark-button-color);
+    background-color: var(--dark-button-bg-color);
+}
+
+body[theme="dark"] .note {
+    color: var(--dark-note-color);
+}
+
+/* theme minato*/
+
+body[theme="minato"] {
+    background-color: var(--minato-main-bg-color);
+    color: var(--minato-main-color);
+}
+
+body[theme="minato"] .header {
+    background-color: var(--minato-alt-bg-color);
+}
+
+body[theme="minato"] .nav-item:hover {
+    background-color: var(--minato-main-color);
+    color: var(--minato-alt-bg-color);
+}
+
+body[theme="minato"] .main .article {
+    background-color: var(--minato-article-bg-color);
+    color: var(--minato-article-color);
+}
+
+body[theme="minato"] .main .post-entry {
+    background-color: var(--minato-post-entry-bg-color);
+    color: var(--minato-post-entry-color);
+}
+
+body[theme="minato"] .main .post-entry:hover {
+    background-color: var(--minato-post-entry-hover-bg-color);
+}
+
+body[theme="minato"] .footer {
+    background-color: var(--minato-alt-bg-color);
+}
+
+body[theme="minato"] .button {
+    color: var(--minato-button-color);
+    background-color: var(--minato-button-bg-color);
+}
+
+body[theme="minato"] .note {
+    color: var(--minato-note-color);
+}
+
+/* theme pandaneko*/
+
+body[theme="pandaneko"] {
+    background-color: var(--pandaneko-main-bg-color);
+    color: var(--pandaneko-main-color);
+}
+
+body[theme="pandaneko"] .header {
+    background-color: var(--pandaneko-alt-bg-color);
+}
+
+body[theme="pandaneko"] .nav-item:hover {
+    background-color: var(--pandaneko-main-color);
+    color: var(--pandaneko-alt-bg-color);
+}
+
+body[theme="pandaneko"] .main .article {
+    background-color: var(--pandaneko-article-bg-color);
+    color: var(--pandaneko-article-color);
+}
+
+body[theme="pandaneko"] .main .post-entry {
+    background-color: var(--pandaneko-post-entry-bg-color);
+    color: var(--pandaneko-post-entry-color);
+}
+
+body[theme="pandaneko"] .main .post-entry:hover {
+    background-color: var(--pandaneko-post-entry-hover-bg-color);
+}
+
+body[theme="pandaneko"] .footer {
+    background-color: var(--pandaneko-alt-bg-color);
+}
+
+body[theme="pandaneko"] .button {
+    color: var(--pandaneko-button-color);
+    background-color: var(--pandaneko-button-bg-color);
+}
+
+body[theme="pandaneko"] .note {
+    color: var(--pandaneko-note-color);
+}

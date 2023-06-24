@@ -1,0 +1,81 @@
+.button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.notice,
+.warning,
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10rem;
+    color: #1c1c1c;
+    max-width: 1000px;
+}
+
+.notice div {
+    padding: 0.5rem;
+    /* color: white; */
+    background-color: lightskyblue;
+    border: 0.1rem solid;
+    border-color: deepskyblue;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.warning div {
+    padding: 0.5rem;
+    /* color: white; */
+    background-color: lightyellow;
+    border: 0.1rem solid;
+    border-color: yellow;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.error div {
+    padding: 0.5rem;
+    /* color: white; */
+    background-color: lightcoral;
+    border: 0.1rem solid;
+    border-color: darkred;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.post-entry {
+    max-width: 800px;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    min-height: 100px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+
+    >.title {
+        font-size: 2rem;
+        margin-top: 0.2rem;
+    }
+
+    >.date {
+        font-size: small;
+    }
+}

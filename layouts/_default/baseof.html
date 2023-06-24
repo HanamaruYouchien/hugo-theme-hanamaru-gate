@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    {{ partial "meta.html" . }}
+</head>
+
+<body theme="dark">
+    {{ partial "header.html" . }}
+
+    <div class="main">
+        {{ block "main" . }}{{ end }}
+    </div>
+
+    {{ partial "footer.html" . }}
+    <noscript>
+        <p class=noscript>无法执行 JavaScript。某些功能被禁用。</p>
+    </noscript>
+    {{ $uiScript := resources.Get "js/ui.js" | minify | fingerprint }}
+    <script src="{{ $uiScript.Permalink }}" type="text/javascript" integrity="{{ $uiScript.Data.Integrity }}"></script>
+</body>
+
+</html>

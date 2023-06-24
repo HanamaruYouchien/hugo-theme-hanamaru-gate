@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <div class="title">
+        <h1>{{ .Page.Title }}</h1>
+    </div>
+        {{ range .Pages }}
+            <div class="post-entry" onclick="jump('{{ .Permalink }}')">
+                <p class="title">{{ .Title }}</p>
+                <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+            </div>
+        {{ end }}
+{{ end }}

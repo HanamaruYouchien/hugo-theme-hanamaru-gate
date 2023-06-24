@@ -1,0 +1,13 @@
+.footer {
+    position: sticky;
+    bottom: 0;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    
+    >p {
+        margin: 0;
+    }
+}
